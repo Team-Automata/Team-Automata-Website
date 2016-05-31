@@ -1,0 +1,279 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2543                
+POS_VISITOR 3361                
+POS_DAY 3796                
+POS_DOMAIN 3970                
+POS_LOGIN 4200                
+POS_ROBOT 4355                
+POS_WORMS 4741                
+POS_EMAILSENDER 4872                
+POS_EMAILRECEIVER 5015                
+POS_SESSION 5091                
+POS_SIDER 5247                
+POS_FILETYPES 5639                
+POS_OS 5826                
+POS_BROWSER 5915                
+POS_SCREENSIZE 6030                
+POS_UNKNOWNREFERER 6104                
+POS_UNKNOWNREFERERBROWSER 6191                
+POS_ORIGIN 6273                
+POS_SEREFERRALS 6407                
+POS_PAGEREFS 6564                
+POS_SEARCHWORDS 6793                
+POS_KEYWORDS 6945                
+POS_MISC 2207                
+POS_ERRORS 7004                
+POS_CLUSTER 4056                
+POS_SIDER_404 7113                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101000209 228 46992 48923349572
+FirstTime 20141230062255
+LastTime 20141231220256
+LastUpdate 20150130184948 228 0 227 0 0
+TotalVisits 6                   
+TotalUnique 5                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 4 187291
+1 0 0 0 2 4 60106
+2 0 1 32800 2 3 455946
+3 0 0 0 4 4 82388
+4 0 0 0 3 3 12868
+5 0 1 175906 0 3 162688
+6 1 1 11334 2 4 78771
+7 0 0 0 4 6 256567
+8 0 0 0 6 8 202004
+9 0 0 0 0 0 0
+10 0 1 498397 2 4 241920
+11 0 0 0 5 5 32835
+12 0 2 523415 3 4 111170
+13 0 1 126958 6 8 315212
+14 0 2 617996 0 0 0
+15 1 1 11334 2 2 146342
+16 0 0 0 3 4 201790
+17 0 0 0 1 2 32005
+18 1 73 9092647 0 1 32828
+19 2 24 4150891 4 7 289585
+20 0 1 1860783 2 2 1534
+21 0 0 0 0 0 0
+22 11 16 1021219 6 18 1124019
+23 0 1 203558 4 6 164153
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+198.143.32.65 11 15 897781 20141231220256
+198.143.41.1 2 23 2290108 20141231195414
+198.143.53.1 1 3 310678 20141231153819
+198.143.57.65 1 70 6613868 20141230180744
+198.143.37.33 1 2 214892 20141230062255
+198.143.53.33 0 1 32800 
+198.143.37.97 0 1 1860783 
+198.143.57.33 0 5 1362950 
+198.143.47.65 0 2 523415 
+198.143.38.33 0 1 498397 
+198.143.41.97 0 2 3721566 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20141230 3 81 10799149 3
+20141231 13 44 7528089 3
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 16 125 18327238
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 27 1291577 20141231195507 0
+robot 16 870703 20141231193024 0
+baiduspider 15 786537 20141231235652 0
+spider 14 1120951 20141231220256 0
+bot[+:,\.\;\/\\-] 2 81206 20141231132126 0
+mail\.ru 1 11334 20141230015333 0
+yandex 1 11334 20141231043353 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 4 45336 4 2
+/awards/ 2 19336 0 1
+/robots/ 2 152940 1 1
+/robots/toucan/ 1 24614 0 0
+/events/ 1 8265 0 0
+/related/ 1 7741 0 0
+/connect/ 1 3490 0 0
+/projects/VexReferenceTrial-0-1-0.apk 1 544920 1 1
+/projects/ 1 31238 0 0
+/projects/makerfaire/ 1 8008 0 1
+/apps/ 1 5114 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 4 22721 0 0
+png 29 3979504 0 0
+ico 2 2300 0 0
+html 15 306082 0 0
+js 4 468040 0 0
+jpg 67 7421322 0 0
+apk 1 544920 0 0
+gif 3 5582349 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 1
+winlong 3
+linux 1
+winvista 2
+win2008 118
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie9.0 15
+mozilla 3
+firefox34.0 73
+chrome 31
+msie7.0 2
+safari 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3 10
+From1 0 0
+From2 12 24
+From3 0 3
+From4 1 88
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 12 24
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.bing.com/images/search 0 2
+http://www.vexforum.com/showthread.php 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+406 1 261
+407 3 1245
+404 22 16874
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 9
+/th1s_1s_a_4o4.html 1 http://www.google.com/url
+/robots.txt 12 -
+/robots/img/xfs_500x410_s80_IMG_2655.jpg 1 -
+/robots/img/xfs_500x410_s80_IMG_2669.jpg 1 -
+/projects/projects/VexReferenceTrial-0-1-0.apk 3 http://www.google.com/url
+/a 1 -
+/robots/img/Duck/xfs_500x450_s80_IMG_6725.JPG 1 -
+/robots/img/xfs_500x410_s80_IMG_2702.jpg 1 -
+/js/w 1 -
+END_SIDER_404

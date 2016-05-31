@@ -1,0 +1,539 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2550                
+POS_VISITOR 11638               
+POS_DAY 14829               
+POS_DOMAIN 3426                
+POS_LOGIN 3659                
+POS_ROBOT 3856                
+POS_WORMS 4558                
+POS_EMAILSENDER 4689                
+POS_EMAILRECEIVER 4832                
+POS_SESSION 15703               
+POS_SIDER 15904               
+POS_FILETYPES 4967                
+POS_OS 5192                
+POS_BROWSER 5343                
+POS_SCREENSIZE 5712                
+POS_UNKNOWNREFERER 5786                
+POS_UNKNOWNREFERERBROWSER 5954                
+POS_ORIGIN 6117                
+POS_SEREFERRALS 6260                
+POS_PAGEREFS 6448                
+POS_SEARCHWORDS 7723                
+POS_KEYWORDS 8066                
+POS_MISC 2214                
+POS_ERRORS 8279                
+POS_CLUSTER 3515                
+POS_SIDER_404 8429                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150201030604 6746 1594523 59614992174
+FirstTime 20150101220129
+LastTime 20150131225119
+LastUpdate 20150201041856 6746 6530 215 0 0
+TotalVisits 167                 
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 87                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 89 8318104 37 71 6384356
+1 5 48 4113078 50 93 4721548
+2 6 84 9878639 54 87 4243712
+3 2 10 1266079 66 97 2155333
+4 3 45 5098541 37 59 2212800
+5 3 10 1748121 49 81 5430433
+6 4 29 2591419 52 67 2489179
+7 8 86 7498240 40 59 4002025
+8 7 117 18664587 31 50 2076036
+9 9 157 21525173 84 98 2209290
+10 11 288 28213591 38 65 4867158
+11 9 298 29572088 47 102 7067958
+12 7 347 38429178 33 64 3052288
+13 6 392 41330598 37 65 5059361
+14 4 183 24050631 40 63 3008076
+15 9 339 33169446 51 72 7463741
+16 13 395 36893051 38 79 9589327
+17 2 104 13292388 34 58 3829932
+18 8 58 12343385 30 62 5703626
+19 15 399 33800725 38 66 3503855
+20 5 37 8227719 34 65 4176883
+21 8 301 27346921 28 60 5665961
+22 226 508 36705003 161 384 25970059
+23 20 423 37048797 27 63 3727735
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 399 4747 481125502
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+teamautomatacom 2 6 169745 20150130184823
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+googlebot 442 35328102 20150131161242 0
+bot[+:,\.\;\/\\-] 267 23058596 20150131172404 0
+baiduspider 266 15280625 20150131180153 0
+spider 226 19477216 20150131220238 0
+robot 92 9670795 20150123001813 0
+mail\.ru 48 4499393 20150130135156 0
+yandex 45 1624338 20150131062955 0
+wordpress 26 0 20150126123225 0
+slurp 17 3307394 20150131102511 0
+exabot 14 944558 20150123152552 0
+mediapartners\-google 1 11334 20150116030532 0
+no_user_agent 9 2162366 20150128070159 0
+surveybot 2 22668 20150121022040 0
+msnbot\-media 1 15129 20150108185838 0
+netcraft 1 11334 20150108094258 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 105 604718 0 0
+png 996 126706537 0 0
+ico 44 49450 0 0
+html 395 8592561 0 0
+pdf 1 509524 0 0
+js 133 14392899 0 0
+jpg 3040 295039247 0 0
+apk 3 1634760 0 0
+gif 30 33595806 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 93
+winlong 357
+unix 81
+linux 294
+winvista 801
+macosx 910
+winunknown 23
+win2003 2
+Unknown 16
+win2008 2170
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 24
+firefox32.0 3
+chrome 2568
+opera 4
+firefox21.0 1
+firefox29.0 1
+firefox34.0 453
+firefox30.0 2
+firefox12.0 19
+firefox31.0 8
+msie8.0 4
+firefox3.5.5 67
+firefox33.0 9
+mozilla 293
+firefox22.0 3
+firefox14.0.1 1
+msie7.0 28
+msie10.0 38
+firefox6.0 8
+msie9.0 333
+Unknown 16
+firefox11.0 2
+firefox3.6.8 2
+safari 537
+firefox35.0 347
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+YahooCacheSystem;_YahooWebServiceClient 20150124192101
+Photon/1.0 20150116213428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+YahooCacheSystem;_YahooWebServiceClient 20150124192101
+Photon/1.0 20150116213428
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 52 286
+From1 0 0
+From2 249 767
+From3 3 167
+From4 95 3527
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 248 753
+search 0 5
+ask 0 1
+yahoo 1 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 23
+https://www.ipage.com/controlpanel/VisitorStats.bml 1 1
+http://buttons-for-website.com 1 1
+http://www.vexforum.com/member.php 1 1
+http://galleryhip.com/vex-scissor-lift.html 0 7
+http://galleryhip.com/vex-robotics-toss-up-intake.html 0 1
+http://bestrunningshoe.info/tag/Vex%20Gear%20Ratios 0 1
+http://imgarcade.com/1/vex-robotics-designs/ 0 1
+http://imgarcade.com/1/vex-robotics-designs-2014/ 0 1
+http://pixgood.com/vex-robotics-designs.html 0 2
+http://www.vexforum.com/showthread.php 0 4
+http://pixgood.com/make-magazine-logo.html 0 1
+http://imgarcade.com/1/vex-robotics-claw/ 0 2
+http://pixgood.com/vex-robotics-forklift.html 0 15
+http://www.bamrobot.com/vex/vex-robotics-scissor-lift-design.html 0 1
+http://imgarcade.com/1/vex-robotics-claw-designs/ 0 3
+http://galleryhip.com/vex-elevator-lift.html 0 5
+http://www.bing.com/images/search 0 110
+http://galleryhip.com/vex-scissor-lift-design.html 0 1
+http://pixshark.com/vex-robotics-claw.htm 0 4
+http://searchpp.com/vex-robot-arm/2/ 0 1
+http://galleryhip.com/vex-gear-ratio-chart.html 0 1
+http://cn.bing.com/images/search 0 2
+http://galleryhip.com/vex-gateway-intake.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+vex+robot+wheel+attachment 1
+pneumatic+claw+vex 1
+design+base+robot 1
+vex+rotating+arm 1
+claw+elevator+vex 1
+best+vex+stacking+robot+design 1
+polycarbonate+wrapped+vex+robot 1
+vex+automata 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+vex 7
+robot 4
+claw 2
+design 2
+attachment 1
+base 1
+arm 1
+polycarbonate 1
+wrapped 1
+stacking 1
+automata 1
+rotating 1
+best 1
+pneumatic 1
+elevator 1
+wheel 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 4 1004
+206 53 12809089
+406 12 3149
+407 4 1660
+301 3 723
+404 497 381199
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 66
+/projects/kcmakerfaire/img/IMG_3472.jpg 2 -
+/sitemap.xml 1 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 1 -
+/robots.txt 264 -
+/robots/img/xfs_500x410_s80_IMG_2669.jpg 10 -
+/robots/img/xfs_500x410_s80_IMG_2655.jpg 9 -
+/apple-touch-icon.png 1 -
+/) 1 -
+/robots/img/Duck/xfs_500x450_s80_IMG_6725.JPG 5 -
+/robots/img/xfs_500x410_s80_IMG_2702.jpg 8 -
+/wp-login/ 4 -
+/wp-content/themes/lote27/download.php 1 http://teamautomata.com/wp-content/themes/churchope/lib/downloadlink.php
+/robots/toucan/img/Robot%25204.1%25202.jpg 1 http://www.google.com/search
+/uaqbdcxebb.html 1 -
+/trackback/ 1 http://www.teamautomata.com/
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/wordpress/wp-login.php 4 -
+/wp-content/themes/NativeChurch/download/download.php 1 http://teamautomata.com/wp-content/plugins/wp-filemanager/incl/libfile.php
+/robots.html 2 -
+/projects/makerfaire/index.html 3 -
+/img/ET/xfs_500x410_s100_IMG_2446.jpg 1 -
+/projects/kcmakerfaire/img/IMG_3519.jpg 2 -
+/wp-content/themes/parallelus-mingle/framework/utilities/download/getfile.php 1 http://teamautomata.com/wp-content/themes/lote27/download.php
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/wp-content/plugins/wptouch/include/js/wptouch.js 1 -
+/js/'+b+' 1 -
+/xmlrpc.php 1 -
+/projects/kcmakerfaire/img/IMG_3601.jpg 2 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/lightofthedesert/luxcal323-calendar/ 3 http://localhost:20581/
+/admin/wp-login.php 4 -
+/events.html 1 -
+/connect/index.html/trackback/ 1 http://www.teamautomata.com/connect/index.html
+/wp/wp-login.php 4 -
+/section/wp-login.php 4 -
+/apple-touch-icon-precomposed.png 1 -
+/img/Duck/xfs_500x450_s80_IMG_7166.jpg 1 -
+/th1s_1s_a_4o4.html 21 http://www.google.com/url
+/user/ 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/wp-content/themes/authentic/includes/download.php 1 http://teamautomata.com/wp-content/themes/NativeChurch/download/download.php
+/projects/cnc 1 -
+/administrator/index.php 5 -
+/stream.html 1 -
+/Editor/editor/filemanager/connectors/test.html 1 -
+/lczfljekryumt.html 1 -
+/js/'+h+ 2 -
+/awards.html 3 -
+/apple-touch-icon-120x120.png 1 -
+/projects.html 1 -
+/robots/img/xfs_500x410_s80_IMG_2690.jpg 5 -
+/js/w 21 -
+/projects/kcmakerfaire/img/IMG_3473.jpg 2 -
+/files/Variable_Shifting_X_Animation.gif&url=http%3A%2F%2Fwww.vexforum.com%2Fshowthread.php%3Ft%3D80522 2 http://www.bing.com/images/search
+/administrator/ 2 -
+/tutorials/index.html 1 -
+/projects/projects/VexReferenceTrial-0-1-0.apk 26 http://www.google.com/url
+/wp-content/themes/churchope/lib/downloadlink.php 1 http://teamautomata.com/wp-content/themes/authentic/includes/download.php
+/apple-touch-icon-120x120-precomposed.png 1 -
+/blog/wp-login.php 4 -
+/a 22 -
+/related.html 1 -
+/wp-login.php 4 -
+/site/wp-login.php 4 -
+/files/VEX-Skyrise-Scoring-App.apk 4 -
+/robots/img/xfs_500x410_s80_IMG_2659.jpg 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 87
+198.143.32.33 97 211 13398539 20150131220238
+198.143.32.65 80 105 4738453 20150127220653
+198.143.32.1 40 78 6276093 20150120220415
+198.143.41.33 24 490 39258662 20150131101900
+198.143.38.65 21 427 39374794 20150126182439
+198.143.57.33 11 644 63875844 20150130103311
+198.143.41.1 9 88 12817506 20150122202415
+198.143.53.33 8 215 19154529 20150122004706
+198.143.33.97 8 155 12698004 20150126235319
+198.143.57.1 8 392 38845298 20150127233228
+149.126.75.1 0 3 45898 
+69.197.128.20 1 1 11334 20150128234216
+46.151.52.79 4 4 45336 20150120160818
+149.126.76.1 0 1 25018 
+198.143.47.1 0 64 10169935 
+198.143.54.65 0 2 29189 
+69.197.128.132 1 1 11334 20150121001709
+149.126.78.1 0 23 1112655 
+198.143.43.1 2 88 8616846 20150124064525
+198.143.34.65 0 21 3682593 
+198.143.39.1 0 1 498397 
+198.143.43.65 2 70 5963961 20150120102434
+198.143.43.33 0 3 657710 
+198.143.53.1 1 78 7781117 20150102133745
+198.143.57.65 2 152 22950042 20150111231445
+198.143.33.65 0 58 5857736 
+192.151.152.219 2 2 22668 20150131075825
+46.151.53.4 1 1 11334 20150116195751
+198.143.51.33 0 1 119599 
+192.187.125.100 2 2 22668 20150130084859
+74.91.23.52 1 1 11334 20150119074133
+198.143.34.1 0 16 2441802 
+68.64.172.29 2 2 22668 20150110230107
+198.143.35.33 0 1 155189 
+198.143.39.65 0 3 1116393 
+198.143.34.97 0 6 1825554 
+198.143.37.33 0 8 3397927 
+174.17.139.92 2 6 169745 20150130184821
+198.143.32.97 1 92 10114199 20150131131106
+149.126.78.97 0 5 773569 
+69.197.128.163 2 2 22668 20150130053518
+149.126.78.65 0 3 732614 
+198.143.39.33 0 3 67876 
+198.143.34.33 0 28 2552113 
+198.143.38.1 0 17 1964007 
+198.143.35.1 0 1 50431 
+198.143.48.1 0 2 144617 
+198.143.38.33 5 188 27450334 20150131225119
+198.143.41.97 4 30 6179412 20150130201814
+142.54.173.19 1 1 11334 20150121090318
+208.110.84.142 2 2 22668 20150129032701
+192.151.152.59 2 2 22668 20150130065919
+198.143.44.1 2 7 889150 20150122005814
+198.143.41.65 5 31 6649683 20150126201816
+198.143.39.97 0 1 498397 
+142.54.184.26 2 2 22668 20150119013522
+198.143.37.1 2 85 9513514 20150112141824
+198.143.33.1 1 79 8576453 20150127125324
+198.143.33.33 2 101 12058070 20150123224806
+198.143.37.65 3 143 12902910 20150109221648
+149.126.76.65 0 5 274073 
+198.143.46.1 2 52 4730301 20150130194609
+198.204.225.114 1 1 11334 20150130053921
+149.126.76.97 0 4 682911 
+63.141.245.67 2 2 22668 20150131090519
+69.58.178.59 1 1 11334 20150108061108
+198.143.47.33 1 92 12457195 20150111081423
+149.126.75.33 0 2 532005 
+46.151.52.178 4 4 45336 20150121080748
+198.143.37.97 4 36 3269905 20150108235730
+198.143.38.97 0 10 2638842 
+198.143.51.65 0 1 203558 
+198.143.51.1 0 1 32355 
+192.151.144.242 2 2 22668 20150124001954
+149.126.76.33 0 2 175137 
+178.137.85.199 1 1 11334 20150103191240
+208.51.62.154 3 3 34002 20150121084155
+149.126.75.97 0 3 302854 
+198.143.44.33 1 3 168787 20150113054511
+63.141.239.186 3 3 34002 20150123002402
+198.143.46.33 1 33 2998297 20150115212727
+192.187.99.2 3 3 34002 20150131043529
+198.143.46.65 2 111 12261219 20150122163240
+192.151.156.43 1 1 11334 20150120011904
+192.187.115.69 2 2 22668 20150123023321
+198.143.47.65 1 119 11692988 20150129140053
+192.187.114.154 1 1 11334 20150121234517
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150101 2 6 705881 2
+20150102 1 81 7969870 1
+20150103 2 157 16968995 2
+20150104 10 48 4739249 3
+20150105 2 126 13835800 2
+20150106 18 266 25535018 6
+20150107 12 171 16138865 3
+20150108 21 259 19856172 5
+20150109 11 100 8548627 2
+20150110 16 167 17597246 7
+20150111 12 236 19295910 11
+20150112 14 181 16467081 5
+20150113 17 160 16325644 7
+20150114 12 128 13661448 4
+20150115 12 108 13749777 3
+20150116 19 156 16049400 7
+20150117 10 129 14670818 9
+20150118 12 37 4432814 3
+20150119 15 43 6188269 6
+20150120 21 374 36347683 9
+20150121 19 122 16511227 10
+20150122 8 273 31761915 8
+20150123 11 175 18349768 7
+20150124 6 79 8630131 6
+20150125 22 284 23199046 6
+20150126 23 190 16030833 6
+20150127 16 213 20331211 4
+20150128 13 56 11464542 3
+20150129 14 133 13253787 4
+20150130 11 122 16711899 9
+20150131 17 167 15796576 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+15mn-30mn 1
+2mn-5mn 4
+30s-2mn 5
+0s-30s 154
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 120 1360080 115 89
+/robots/ 58 4358790 30 33
+/projects/ 35 1101290 5 6
+/awards/ 28 270704 7 1
+/apps/ 26 132964 2 3
+/related/ 24 185784 1 3
+/connect/ 23 80270 0 0
+/events/ 22 181830 0 0
+/robots/toucan/ 21 516894 0 0
+/projects/makerfaire/ 20 160160 3 19
+/lightofthedesert/ 1 403 0 1
+/projects/cnc/ 8 28992 0 2
+/projects/VexReferenceTrial-0-1-0.apk 3 1634760 3 3
+/stats/usage_201501.html 1 148340 0 1
+/stats/ 1 10004 1 0
+/projects/kcmakerfaire/ 7 56056 0 6
+/files/R-WARS_Description.pdf 1 509524 0 0
+END_SIDER

@@ -1,0 +1,521 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2550                
+POS_VISITOR 10794               
+POS_DAY 13926               
+POS_DOMAIN 3456                
+POS_LOGIN 3689                
+POS_ROBOT 3844                
+POS_WORMS 4605                
+POS_EMAILSENDER 4736                
+POS_EMAILRECEIVER 4879                
+POS_SESSION 14800               
+POS_SIDER 14992               
+POS_FILETYPES 5014                
+POS_OS 5241                
+POS_BROWSER 5392                
+POS_SCREENSIZE 5700                
+POS_UNKNOWNREFERER 5774                
+POS_UNKNOWNREFERERBROWSER 6277                
+POS_ORIGIN 6720                
+POS_SEREFERRALS 6864                
+POS_PAGEREFS 7023                
+POS_SEARCHWORDS 7794                
+POS_KEYWORDS 7946                
+POS_MISC 2214                
+POS_ERRORS 8005                
+POS_CLUSTER 3545                
+POS_SIDER_404 8141                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901004046 7186 1609689 38016376830
+FirstTime 20150801000614
+LastTime 20150831220703
+LastUpdate 20150901030109 7186 6861 324 0 0
+TotalVisits 208                 
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 87                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 64 5766243 41 62 5566383
+1 6 52 7391976 118 213 20068472
+2 12 155 19244948 55 88 11382902
+3 4 21 5941682 58 121 9343927
+4 6 128 21621158 57 105 8714064
+5 4 283 48436933 33 73 6242702
+6 3 34 3265518 56 87 8198062
+7 3 66 5025053 69 121 11523890
+8 9 164 23263694 28 63 5634280
+9 11 230 43886971 28 45 11026241
+10 11 235 37904390 79 117 6776920
+11 6 79 14295992 92 144 7080835
+12 9 327 58711479 33 63 6280358
+13 7 86 16645887 46 94 9565939
+14 20 517 77952517 51 91 9663893
+15 12 256 43805089 42 81 6540863
+16 15 344 46677754 27 77 15058142
+17 5 154 27138735 44 114 24391759
+18 15 169 32816419 64 132 18814214
+19 11 87 25283551 48 68 22852589
+20 15 202 32819073 32 45 7610827
+21 18 209 34305537 77 119 15981213
+22 411 625 42483636 157 374 8757961
+23 11 106 14597491 53 75 6311761
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 633 4593 689281726
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[+:,\.\;\/\\-] 673 116610219 20150831180249 0
+googlebot 393 47659830 20150831212203 0
+baiduspider 339 49526344 20150831212552 0
+spider 217 6674207 20150831220658 0
+robot 126 28846131 20150828224321 0
+slurp 24 2254887 20150831162951 0
+yandex 18 3330500 20150831042435 0
+crawl 15 351462 20150830102932 0
+exabot 14 974427 20150826044032 0
+mail\.ru 10 4698593 20150816171412 0
+no_user_agent 6 57050 20150829023603 0
+ia_archiver 7 158780 20150828032251 0
+y!j 3 20724 20150811032537 0
+surveybot 2 22820 20150826195646 0
+wordpress 4 1335218 20150812181149 0
+netcraft 1 11410 20150806220715 0
+msnbot\-media 5 359766 20150823225044 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 169 994791 0 0
+png 1601 434661517 0 0
+ico 82 463220 0 0
+html 631 10823042 0 0
+jpg 1842 166849563 0 0
+js 204 21797233 0 0
+apk 1 1314488 0 0
+Unknown 1 0 0 0
+gif 62 52377872 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 30
+winxp 134
+unix 20
+winnt 634
+linuxubuntu 1
+linux 794
+winvista 804
+macosx 812
+Unknown 88
+win2008 1276
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 19
+firefox40.0 239
+firefox10.0 25
+chrome 2766
+firefox38.0 76
+firefox34.0 57
+firefox30.0 1
+firefox31.0 3
+firefox6.0.2 20
+firefox33.0 1
+mozilla 307
+firefox39.0 59
+firefox37.0 10
+msie7.0 2
+msie10.0 2
+msie9.0 473
+Unknown 57
+firefox36.0 26
+firefox11.0 1
+safari 468
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Scrapy/0.24.6_(_http://scrapy.org) 20150812030313
+Google_favicon 20150831212434
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150829161915
+Photon/1.0 20150811171948
+SiteLock 20150809141914
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20150807213402
+Outlook-iOS-Android/1.0 20150831102157
+Mozilla/5.0_(compatible;_GWPImages/1.0) 20150825121208
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Scrapy/0.24.6_(_http://scrapy.org) 20150812030313
+Google_favicon 20150831212434
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20150829161915
+Photon/1.0 20150811171948
+SiteLock 20150809141914
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20150807213402
+Outlook-iOS-Android/1.0 20150831102157
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 61 214
+From1 0 18
+From2 432 887
+From3 5 58
+From4 135 3416
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 432 887
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 18
+http://makerfaire.com/maker/entry/50171/ 1 1
+https://duckduckgo.com 1 1
+http://www.vexforum.com/showthread.php 1 3
+http://prenda.co/blog/ 1 1
+http://prenda.co/2015/07/29/and-the-winners-are/ 1 1
+http://pix-hd.com 0 2
+http://mypixlibrary.com 0 1
+http://galleryhip.com/vex-differential-gear.html 0 1
+http://pix-collection.com 0 2
+http://mygoodpix.net 0 1
+http://pixhder.com 0 1
+http://imgarcade.com/1/vex-robotics-claw-designs 0 1
+http://www.bing.com/images/search 0 34
+http://thecoolimages.net 0 4
+http://myimagecollection.net 0 1
+http://gallerygogopix.net 0 1
+http://imgkid.com/I_Big_Hotlinker 0 1
+http://www.bing.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 4 1152
+406 15 3855
+407 4 1660
+301 17 3651
+404 675 485511
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 75
+/projects/kcmakerfaire/img/IMG_3472.jpg 6 -
+/wp-content/uploads/gravity_forms/_input_1_.php5 1 -
+/robots.txt 360 -
+/robots/img/xfs_500x410_s80_IMG_2655.jpg 4 -
+/robots/img/xfs_500x410_s80_IMG_2702.jpg 5 -
+/robots/img/Duck/xfs_500x450_s80_IMG_6725.JPG 5 -
+/apps/img/skyrise-scoring-app-portrait-4.0.1.png 1 -
+/wordpress/wp-login.php 8 -
+/apps/img/skyrise-scoring-screenshot-portrait.png 1 -
+/robots.html 2 -
+/projects/kcmakerfaire/img/IMG_3519.jpg 9 -
+/install/ 2 -
+/editor/editor/ 4 -
+/system/fckeditor/editor/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/ 1 -
+/wp-admin/wp-login.php 8 -
+/admin/wp-login.php 8 -
+/browserconfig.xml 4 -
+/sysadmin/fckeditor/editor/ 3 -
+/plus/mytag_js.php 1 -
+/plus/xsvip.php 1 -
+/scripts/fckeditor/editor/ 1 -
+/ckeditor/editor/ 4 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/img/Duck/xfs_500x450_s80_IMG_7166.jpg 1 -
+/js/fckeditor/editor/ 1 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+/cms/wp-login.php 8 -
+/awards.html 1 -
+/robots/img/Heron/xfs_500x410_s80_Current%2520Design.jpg 2 https://www.google.com/
+/include/fckeditor/editor/ 1 -
+/plus/ad_js.php 2 -
+/blog/wp-login.php 8 -
+/message_for_oss.pdf 2 -
+/editors/FCKeditor/editor/ 1 -
+/a 31 -
+/editorold/editor/ 1 -
+/default.php 1 http://teamautomata.com/default.php
+/wp-login.php 8 -
+/site/wp-login.php 8 -
+/files/VEX-Skyrise-Scoring-App.apk 5 -
+/robots/img/xfs_500x410_s80_IMG_2659.jpg 4 -
+/robots/img/xfs_500x410_s80_IMG_2669.jpg 4 -
+/editor/fckeditor/editor/ 3 -
+/wp-login/ 8 -
+/common/fckeditor/editor/ 1 -
+/inc/fckeditor/editor/ 1 -
+/fckeditor/fckeditor/editor/ 1 -
+/projects/makerfaire/index.html 1 -
+/Autodiscover/Autodiscover.xml 4 -
+/install/index.php 1 -
+/fck/editor/ 1 -
+/projects/kcmakerfaire/img/IMG_3601.jpg 7 -
+/includes/fckeditor/editor/ 1 -
+/wp/wp-login.php 8 -
+/shop/install/templates/main_page/stylesheet.css 1 -
+/section/wp-login.php 8 -
+/file/fckeditor/editor/ 1 -
+/blog/robots.txt 2 -
+/plus/mytag_j.php 1 -
+/fckeditor/editor/ 5 -
+/admin/editor/editor/ 1 -
+/stream.html 2 -
+/manage/fckeditor/editor/ 4 -
+/mail/config-v1.1.xml 1 -
+/robots/img/xfs_500x410_s80_IMG_2690.jpg 3 -
+/projects.html 1 -
+/js/w 31 -
+/projects/kcmakerfaire/img/IMG_3473.jpg 5 -
+/editor1/editor/ 1 -
+/wp-content/uploads/ 1 -
+/index.php 2 -
+/plus/mybak.php 1 -
+/catalog/install/templates/main_page/stylesheet.css 1 -
+/admin/fckeditor/editor/ 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 87
+198.143.32.33 260 310 10247498 20150831220703
+198.143.32.65 145 238 20073289 20150828220600
+198.143.37.1 21 233 39830373 20150831125623
+198.143.41.65 18 287 44311402 20150831212434
+198.143.37.97 15 282 41027259 20150831125654
+198.143.41.1 15 474 77159203 20150830174349
+198.143.41.97 15 255 57818221 20150831125736
+198.143.57.65 12 385 58113980 20150820163537
+198.143.37.65 10 103 19328779 20150825221354
+46.151.52.86 7 7 79870 20150829094354
+149.126.75.1 1 24 2685122 20150820060317
+46.151.52.42 3 3 34230 20150829151914
+69.58.178.56 1 1 11410 20150807213402
+149.126.76.1 0 4 309779 
+46.151.52.68 3 3 34230 20150825173039
+198.143.47.1 0 12 1429730 
+198.143.54.65 0 2 15280 
+198.143.60.1 0 3 171748 
+198.143.55.65 1 22 2464519 20150803083647
+198.143.55.1 0 1 7640 
+149.126.78.1 0 5 140830 
+198.143.34.65 0 10 4670612 
+46.151.52.30 3 3 34230 20150831094544
+198.143.60.65 0 2 29256 
+46.151.52.62 2 2 22820 20150809172327
+46.151.52.41 5 5 57050 20150829144519
+198.143.48.33 1 101 17260089 20150822050750
+198.143.53.1 0 7 223416 
+46.151.52.63 5 5 57050 20150827001422
+198.143.33.65 1 74 15796206 20150826122440
+46.151.52.40 6 6 68460 20150829234603
+198.143.56.1 0 5 7878830 
+198.143.57.1 2 72 8569270 20150807150005
+198.143.32.1 0 9 1062273 
+93.171.205.19 2 2 22820 20150811182840
+198.143.34.1 0 3 258338 
+52.25.66.80 1 1 0 20150831102157
+149.126.75.65 0 12 1210037 
+46.151.52.36 3 3 34230 20150822101934
+198.143.35.33 0 4 195257 
+198.143.39.65 3 182 32662935 20150829100710
+46.151.52.35 5 5 57050 20150831000126
+149.126.78.97 4 106 9341139 20150815012811
+46.151.52.64 2 2 22820 20150809033538
+198.143.58.1 0 1 25018 
+46.151.52.156 1 1 11410 20150819160405
+149.126.78.65 2 104 12419683 20150824083147
+46.151.52.32 2 2 22820 20150827045702
+46.151.52.46 1 1 11410 20150805134614
+198.143.38.1 0 7 701302 
+198.143.34.33 0 2 1338627 
+198.143.35.1 0 4 105747 
+46.151.52.66 3 3 34230 20150824193759
+198.143.48.1 0 2 50036 
+198.143.38.65 2 106 18005709 20150831215814
+198.143.55.33 0 2 542940 
+198.143.44.1 3 54 5797901 20150828142156
+198.143.39.97 2 37 4485782 20150831075942
+198.143.60.33 0 4 322581 
+198.143.33.1 0 54 5625783 
+46.151.52.33 3 3 34230 20150822032003
+198.143.33.33 5 161 25753713 20150828141441
+198.143.53.33 2 185 34514280 20150803050625
+198.143.44.65 0 11 675207 
+93.171.205.84 3 3 34230 20150815232705
+46.151.52.67 5 5 57050 20150826094730
+46.151.52.233 2 2 22820 20150829214640
+46.151.52.37 3 3 34230 20150819202249
+149.126.76.65 0 6 15771402 
+198.143.54.33 2 116 19385186 20150827140434
+46.151.52.38 4 4 45640 20150828150214
+198.143.46.1 0 2 617996 
+149.126.76.97 0 6 397934 
+198.143.57.33 4 187 27917112 20150824132404
+46.151.52.83 4 4 45640 20150813023547
+198.143.47.33 0 28 10416814 
+46.151.52.43 2 2 22820 20150812163535
+149.126.75.33 0 11 820784 
+198.143.38.97 0 2 50036 
+198.143.51.65 1 21 2463369 20150803144613
+198.143.51.1 1 51 3624640 20150813073358
+198.143.44.33 0 8 1801027 
+198.143.45.65 0 3 2452483 
+46.151.52.61 3 3 34230 20150818205505
+198.143.56.33 0 4 487627 
+198.143.46.65 1 80 15124964 20150825163024
+198.143.47.65 0 23 2346703 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150801 24 266 36796931 11
+20150802 20 256 41156759 8
+20150803 22 358 59345970 9
+20150804 21 39 12005226 9
+20150805 19 30 1907693 7
+20150806 26 284 36152807 7
+20150807 23 125 16375076 8
+20150808 19 66 6305057 6
+20150809 17 30 3232341 5
+20150810 16 57 10872500 3
+20150811 17 55 7183520 5
+20150812 19 38 14571060 7
+20150813 25 168 15918515 10
+20150814 15 29 1233383 3
+20150815 20 50 2773227 7
+20150816 17 48 5693046 5
+20150817 17 82 10855551 5
+20150818 18 37 3137958 6
+20150819 18 63 5189447 5
+20150820 33 324 39738967 11
+20150821 20 160 29731042 6
+20150822 19 232 38710573 6
+20150823 18 27 2132271 6
+20150824 30 501 70609893 9
+20150825 19 163 23680475 6
+20150826 16 138 27877036 4
+20150827 23 269 56120387 7
+20150828 22 184 21810628 5
+20150829 20 131 22072775 8
+20150830 16 119 18185025 3
+20150831 24 264 47906587 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+2mn-5mn 2
+30s-2mn 17
+15mn-30mn 2
+0s-30s 186
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 199 2270590 181 138
+/robots/ 50 3882600 10 14
+/awards/ 47 528844 4 10
+/projects/ 38 1179824 2 5
+/projects/cnc/ 35 484960 2 2
+/related/ 34 267036 1 2
+/projects/kcmakerfaire/ 34 276318 2 33
+/apps/ 34 234872 1 0
+/events/ 32 310848 0 0
+/connect/ 31 114173 0 0
+/engineering-notebook/app-release.apk 1 1314488 1 1
+/Microsoft-Server-ActiveSync 1 0 1 1
+/robots/toucan/ 31 766692 0 0
+/branches/ 1 3368 1 0
+/robots/flamingo/ 31 272242 0 0
+/engineering-notebook/ 3 62190 2 2
+/donate/ 31 168485 0 0
+END_SIDER
