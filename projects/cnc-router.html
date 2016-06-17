@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata - Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<article>
+			<h2>DIY CNC Router</h2>
+			<div class="imageGallery">
+					<img class="imgBorder" src="img/CNC/cnc4.jpg" alt="Photo of CNC machine" height="350">
+			</div>
+			
+			<p>
+				Our CNC Router is based off of plans
+				from <a href="http://momuscnc.com/" target="_blank">Momus CNC</a>. We modified the plans to extend the work area of the machine and to
+				allow it to cut dovetail joints on the ends of boards.  The router is fully enclosed and has a 15"x28"x5" work area.
+			</p>
+
+			<p>
+				We showed the machine at the <a href="http://www.southwestmakerfest.com/" target="_blank">Southwest Maker Fest</a> and the <a href="http://www.makerfaire.com" target="_blank">Maker Faire Bay Area</a>.
+			</p>
+
+			<!--div class="imageGallery" style="float: none; text-align: center;">
+					<img class="imgBorder" src="img/CNC/design-drawing-2.png" alt="Design drawing of CNC machine" height="350">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img class="imgBorder" src="img/CNC/design-drawing-1.png" alt="Design drawing of CNC machine" height="350">
+			</div-->
+			
+			<br class="clearBoth"/>
+			
+			<div class="rotator">
+				<!-- Begin DWUser_EasyRotator -->
+				<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+				<div class="dwuserEasyRotator" style="width: 750px; height: 540px;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-104-111-98-98-105-116-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1, autoplayDelay:4000, autoplayPauseOnHover:false}" data-erName="construction_gallery" data-erTID="{lch3gfavq21745504485641}">
+					<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6147.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6147.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6160.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6160.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100707.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100707.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100717.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100717.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100712.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150308_100712.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_152714.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_152714.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6680.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6680.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6619.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6619.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6653.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6653.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_170053.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_170053.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_152726.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150312_152726.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6656.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6656.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6622.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6622.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6658.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6658.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6662.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6662.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6628.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6628.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6629.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6629.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6632.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6632.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6636.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6636.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6667.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6667.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6672.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6672.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150318_104700.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150318_104700.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6676.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6676.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_20150320_175931.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_20150320_175931.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6687.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6687.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6684.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6684.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/construction/xfs_750x615_s80_IMG_6695.jpg" />
+							<img class="thumb" src="img/CNC/construction/xfs_750x615_s80_IMG_6695.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/xfs_750x615_s80_cnc1.jpg" />
+							<img class="thumb" src="img/CNC/xfs_750x615_s80_cnc1.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/xfs_750x615_s80_cnc2.jpg" />
+							<img class="thumb" src="img/CNC/xfs_750x615_s80_cnc2.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/xfs_750x615_s80_cnc3.jpg" />
+							<img class="thumb" src="img/CNC/xfs_750x615_s80_cnc3.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/xfs_750x615_s80_cnc4.jpg" />
+							<img class="thumb" src="img/CNC/xfs_750x615_s80_cnc4.jpg" />
+						</li>
+						<li>
+							<img class="main" src="img/CNC/xfs_750x615_s80_cnc5.jpg" />
+							<img class="thumb" src="img/CNC/xfs_750x615_s80_cnc5.jpg" />
+						</li>
+					</ul>
+					</div>
+					<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:25px;" data-erConfig="{___numTiles:3, scaleMode:'scaleDown', imgType:'main', alwaysPreviousButton:true, __loopNextButton:false, __arrowButtonMode:'rollover'}">
+				<div class="erimgMain_slides erFixCSS3" style="position: absolute; left:15px; top:0; bottom:0; right:15px;">
+					<div class="erimgMain_slide">
+						<div class="erimgMain_img" style="position: absolute; left:0;right:0;top:0;bottom:0;"></div>
+					</div>
+				</div>
+				<div class="erimgMain_arrowLeft" style="position:absolute; left: 0; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleCozy', image2:'circleCozy'}"></div>
+				<div class="erimgMain_arrowRight" style="position:absolute; right: 0; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleCozy', image2:'circleCozy'}"></div>
+			</div>
+			
+			<div class="erdots" style="overflow: hidden; margin: 0; font-size: 10px; font-family: 'Lucida Grande', 'Lucida Sans', Arial, _sans; color: #FFF; position: absolute; left:0; right:0; bottom:5px;" data-erConfig="{showText:false}" align="center">
+				<div class="erdots_wrap" style="wasbackground-color: #CFC; float: none;" align="left"> <!-- modify the float on this element to make left/right/none=center aligned. -->
+					<span class="erdots_btn_selected" style="padding-left: 0; width: 12px; height: 12px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 0 0 6px; cursor: default; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/12_8_666empty.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_normal" style="padding-left: 0; width: 12px; height: 12px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 0 0 6px; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/12_8_666.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_hover" style="padding-left: 0; width: 12px; height: 12px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 0 0 6px; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/12_8_CCC.png) top left no-repeat;">
+						&nbsp;
+					</span>
+				</div>
+			</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+						This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+						<br /><br />
+							Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+						<br /><br />
+						<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+					</div>
+					<noscript>
+						Rotator powered by <a href="http://www.dwuser.com/easyrotator/">EasyRotator</a>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+					</noscript>
+					<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+	
+				</div>
+			</div>
+			<!-- End DWUser_EasyRotator -->
+		</article>
+	</body>
+</html>

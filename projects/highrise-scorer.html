@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata - Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<article id="highrise-scorer" class="article">
+	    <h2>VEX Highrise Scoring App</h2>
+		<div class="imageGallery">
+			
+			  <img class="imgBorder" width="222" src="img/Apps/Screenshot_2015-02-08-18-55-49.png" alt="VEX Highrise Scoring App screenshot"/>
+
+		</div>
+		
+		<p>
+			A scoring app for the 2014-2015 VIQC game VEX Highrise.
+		</p>
+		
+		<p>
+		  Features:
+		  <ul>
+    		  <li>Input validation to ensure that all scoring rules are followed</li>
+			  <li>Plus/minus buttons for on-the-fly scoring</li>
+			  <li>Match timer</li>
+			  <li>Programming skills mode</li>
+			  <li>Easy to use</li>
+			  <li>Supports Android 2.1 and up</li>
+		  </ul>
+		</p>
+		
+		<p>
+		  <a href="https://play.google.com/store/apps/details?id=com.automatadev.vexhighrisescoringapp"target="_blank"><button>Download from Google Play</button></a>
+		</p>
+		
+		<div class="spacer">&nbsp;</div>
+		
+      </article>
+	</body>
+</html>

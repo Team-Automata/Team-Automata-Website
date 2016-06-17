@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata - Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<article>
+	    <h2>The Heron</h2>
+		<div class="imageGallery">
+		  <!-- Begin DWUser_EasyRotator -->
+          <script type="text/javascript" src="../js/easy_rotator.min.js"></script>
+          <div class="dwuserEasyRotator" style="width: 500px; height: 410px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-104-111-98-98-105-116-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="The Heron" data-erTID="{mdgggp6sx46048200673731}">
+          	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_IMG_1845.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_IMG_1845.jpg" alt="The Heron V1" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_IMG_1845.jpg" />
+          		<span class="title">The Heron V1</span>
+          		<span class="desc">Used at the Southern Arizona VEX Robotics Competition</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_IMG_0043.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_IMG_0043.jpg" alt="V1 Drivebase" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_IMG_0043.jpg" />
+          		<span class="title">V1 Drivebase</span>
+          		<span class="desc">Used three 269 motors in a U holonomic configuration</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_IMG_0208.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_IMG_0208.jpg" alt="V1 Arm Gearing" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_IMG_0208.jpg" />
+          		<span class="title">V1 Arm Gearing</span>
+          		<span class="desc">Two 393 motors geared 5:1</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_Current Design.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_Current Design.jpg" alt="The Heron V2" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_Current Design.jpg" />
+          		<span class="title">The Heron V2</span>
+          		<span class="desc">Used at the Central Arizona VEX Robotics Competition and the U.S. National Championship</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_IMG_0114c.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_IMG_0114c.jpg" alt="The Heron V2 with Finger Addition" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_IMG_0114c.jpg" />
+          		<span class="title">The Heron V2 with Finger Addition</span>
+          		<span class="desc">Finger automatically unfolded when the arm raised above a certain point and allowed for descoring</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_IMG_0218.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_IMG_0218.jpg" alt="V2 Drivebase Prototype" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_IMG_0218.jpg" />
+          		<span class="title">V2 Drivebase Prototype</span>
+          		<span class="desc">Three 269 motors drove the two back wheels via a differential.  This feature was later removed due to friction issues.</span>
+          	</li>
+          	<li>
+          		<a class="mainLink" href="img/Heron/xfs_500x410_s80_Claw Tabs.jpg" target="_blank"><img class="main" src="img/Heron/xfs_500x410_s80_Claw Tabs.jpg" alt="V2 Claw Tabs" /></a>
+          		<img class="thumb" src="img/Heron/xfs_500x410_s80_Claw Tabs.jpg" />
+          		<span class="title">V2 Claw Tabs</span>
+          		<span class="desc">Rotating tabs at the base of the claw allowed for stacking objects and more reliable scoring</span>
+          	</li>
+          </ul>
+          </div>
+          	<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:70px;" data-erConfig="{___numTiles:3, scaleMode:'scaleDown', imgType:'main', __loopNextButton:false, arrowButtonMode:'rollover'}">
+          				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+          					<div class="erimgMain_slide">
+          						<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+          						<div class="erhideWhenNoText" style="background: #000; background: rgba(0,0,0,0.85); position: absolute; left: 0; right: 0; bottom: 0; padding: 5px; color: #FFF; font-family: Arial; font-size: 12px;">
+          							<p class="erimgMain_title" style="padding: 0; margin: 0 0 3px 0; font-weight: bold;"></p>
+          							<p class="erimgMain_desc" style="padding: 0 0 10px 0; margin: 0;"></p>
+          						</div>
+          					</div>
+          				</div>
+          				<div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+          				<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;"></div>
+          			</div>
+          			<div class="erimgMain rotatorTileNav" style="position: absolute; left:0;right:0;bottom:0;height:80px;" data-erConfig="{numTiles:-1, scaleMode:'fillArea', imgType:'thumb', loopNextButton:false, arrowButtonMode:'rollover', __slideLinkEvent:'rollover'}">
+          				<div style="position: absolute; left: 0; top: 10px; right: 0; bottom: 0; background: #FFF;"></div>
+          				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+          					<div class="erimgMain_slide">
+          						<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 10px; bottom: 0; margin: 2px 1px;"></div>
+          						<!-- <div class="" style="background: #555; position: absolute; left: 1px; right: 1px; top: 10px; bottom: 0; padding: 5px; color: #FFF; font-family: Arial; font-size: 12px; text-align: center;">
+          							<p class="erimgMain_title" style="padding: 5px; margin: 0 0 3px 0; font-weight: bold;"></p>
+          						</div> -->
+          						<div class="selectionArrow visibleWhenSelected" style="position: absolute; top: 0; left: 50%; margin-left: -10px; width: 20px; height: 10px; background-image: url('http://easyrotator.s3.amazonaws.com/1/i/rotator/FFF_arrow10_export.png');"></div>
+          					</div>
+          				</div>
+          				<div class="erimgMain_arrowLeft" style="position:absolute; left: 60px; top: 50%; margin-top: -10px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+          				<div class="erimgMain_arrowRight" style="position:absolute; right: 60px; top: 50%; margin-top: -10px;"></div>
+          			</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+          			This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+          			<br /><br />
+                      Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+          			<br /><br />
+          			<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+          		</div>
+          		<noscript>
+          			Rotator powered by <a href="http://www.dwuser.com/easyrotator/">EasyRotator</a>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+          		</noscript>
+          		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>         	
+          	</div>
+          </div>
+          <!-- End DWUser_EasyRotator -->
+	    </div>
+		
+        <p>Created to compete in <a href="http://www.vexforum.com/wiki/Gateway" target="_blank">VRC Gateway</a></p>
+		
+        <p>
+          The Heron was designed for fast, precise scoring.  The polycarbonate claw had a
+		  3 object capacity.  A tilting four bar lift allowed the Heron to score in all heights
+		  of goals, and reach into the opponent's isolation 20" goal.  Two servo powered tabs
+		  at the base of the claw allowed version 2 to quickly stack multiple objects.  Sensors
+		  on the robot included potentiometers for arm presets, shaft encoders on the drive
+		  wheels, and jumpers to select the autonomous mode.  A retracting finger on the claw
+		  allowed for descoring of the top object in a goal.
+        </p>
+      </article>
+	</body>
+</html>

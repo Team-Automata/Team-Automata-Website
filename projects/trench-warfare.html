@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata - Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<article>
+	    <h2>Trench Warfare</h2>
+		<div class="imageGallery">
+		  <iframe width="500" height="350" src="http://www.youtube.com/embed/oCzGXqLhHfM?rel=0" allowfullscreen class="imgBorder"></iframe>
+		</div>
+		
+		<p>
+		  This is our finalist entry for the 2013 <a href="http://challenges.robotevents.com/challenge/25/entry/683" target="_blank">VRC Game Design Animation Challenge</a>.
+		</p>
+		
+        <p>
+          Trench Warfare is played on a 12' by 12' field covered in foam tiles.  A 3" deep trench
+		  separates the field, and supports the three scoring channels.  The scoring object is a
+		  3" cube with two open faces.  56 of these cubes are distributed throughout the field.  A
+		  cube scored in the trench is worth 1 point, a cube scored in one of the low channels is
+		  worth 2 points, and a cube scored in the high channel is worth 3 points.  Two alliances
+		  of two robots each start on opposite sides of the field.  Each match consists of a 20 second autonomous period,
+		  followed by a 2 minute driver control period.  During the match, alliances attempt to score more points
+		  than their opponent.  The alliance who scores the most points during the autonomous
+		  period gets a 5 point bonus.  Robots can earn an additional three points by finishing the
+		  match on the opponent's side of the trench.
+        </p>
+		
+		<p><a href="http://challenges.robotevents.com/challenge/25" target="_blank"><img src="img/vexdesignch.PNG" height="80" alt="Online Challenge Logo"></a></p>
+		
+		<div class="spacer">&nbsp;</div>
+      </article>
+	</body>
+</html>

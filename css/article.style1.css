@@ -1,0 +1,30 @@
+html{padding-top:60px; padding-bottom: 50px;}
+
+/* Text */
+h2{font-size:28px; font-family:/*Digital,'Iceland',*/'Roboto',Arial,sans-serif; font-weight:normal; text-align:left; padding: 20px 0 20px 0;}
+h3{font-size:18px; font-family:'Roboto',Arial,sans-serif; font-weight:bold; text-align:left; padding: 10px 0 10px 0;}
+p{font-size:16px; font-family:'Roboto',Arial,sans-serif; font-weight:normal; text-align:left; padding: 4px 0 10px 0; line-height:24px;}
+a{font-size:16px; font-family:'Roboto',Arial,sans-serif; font-weight:normal; color:#48D456;}
+b{font-weight:bold;}
+
+/* Horizontal Line */
+hr{display:block; height:3px; width:100%; background-color:#48D456; border:none; clear:both;}
+
+/* Breaks */
+.clearBoth{clear:both;}
+.spacer{height:1em; clear:both; width: 100%; margin:0; padding:0;}
+.spacerX2{height:2em; clear:both; width: 100%; margin:0; padding:0;}
+
+/* Body content */
+#bodyContent {text-align:left; padding:0;}
+#bodyContent ul{margin:0 0 0 20px; display:inline-block; font-family:'Roboto',Arial,sans-serif; list-style-type:square;}
+#bodyContent .rotator{float: none; clear:both; text-align: center; width:100%; margin:20px 0 0 0;}
+#bodyContent .dwuserEasyRotator{position:relative; text-align: left; display: inline-block; }
+#bodyContent .imageGallery{float:right; margin-left:15px; margin-bottom:15px;}
+#bodyContent .imageGallery img{margin:10px;}
+#bodyContent .imageGallery iframe{margin:10px;}
+#bodyContent .imageGallery .dwuserEasyRotator{margin:10px; border:2px solid #48D456;}
+#bodyContent .alignLeft{float:left;}
+#bodyContent .imgBorder{border:2px solid #48D456;}
+#bodyContent .linkBorder{border:2px solid #48D456;}
+#bodyContent .linkBorder:hover{border:2px solid #C8F0CC;}

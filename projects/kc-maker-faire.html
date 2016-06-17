@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata <li>Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<h2>One Man's Junk... Is Another Man's Robot!</h2>
+	
+		<p>
+			See our photos from the event on our <a href="https://www.flickr.com/photos/125335303@N03/sets/72157645695035693/" target="_blank">Flickr page</a>
+		</p>
+	
+		<hr/>
+	
+		<article>
+			<h2>CHAMP - 4000</h2>
+			
+		  	<div class="imageGallery">
+					<img class="imgBorder" src="img/KCMakerFaire/IMG_20140613_121120.jpg" width="260" alt="the CHAMP 4000"/>
+			</div>
+		  
+		  	<p>
+			Features:
+				<ul>
+				  <li>Lighted RGB infinity mirror eye</li>
+				  <li>Motorized arms</li>
+				  <li>Camera</li>
+				  <li>Lit candy holder</li>
+				  <li>Phone control via WiFi</li>
+				  <li>6x6 LED matrix</li>
+				</ul>
+		  	</p>
+		  
+		  	<p>
+			Parts:
+			<ul>
+			  <li>Diaper Champ</li>
+			  <li>2 electric screwdrivers</li>
+			  <li>Scrap wood</li>
+			  <li>Misc. PVC and fittings</li>
+			  <li>LED flashlight</li>
+			  <li>Erector motor and parts</li>
+			  <li>Misc. salvaged wire</li>
+			  <li>Arm9 Microcontroller</li>
+			  <li>RGB LED strip</li>
+			  <li>Electronic components removed from old electronics</li>
+			  </ul>
+		  	</p>
+		
+			<div class="spacer">&nbsp;</div>
+		</article>
+		
+		<hr/>
+		
+		<article>
+			<h2>R8-D7</h2>
+			
+			<div class="imageGallery">
+				
+					<img class="imgBorder" src="img/KCMakerFaire/IMG_3601.jpg" width="260" alt="R8-D7"/>
+				
+			</div>
+		  
+		  	<p>
+			  Features:
+			  <ul>
+			  <li>Motorized arms</li>
+			  <li>Pneumatic claw</li>
+			  <li>Computer interface arm</li>
+			  <li>Wireless Playstation remote control</li>
+			  <li>Vacuum</li>
+			  </ul>
+		  	</p>
+		  
+		  	<p>
+			  Parts:
+			  <ul>
+			  <li>Roomba</li>
+			  <li>2 battery powered drills</li>
+			  <li>Scrap wood</li>
+			  <li>Misc. PVC and fittings</li>
+			  <li>IKEA salad bowl</li>
+			  <li>Misc. salvaged wire</li>
+			  <li>Arduino UNO</li>
+			  <li>Joystick ports removed from Playstation</li>
+			  <li>Pneumatic claw</li>
+			  <li>Solenoid valve</li>
+			  <li>Electronic components removed from old electronics</li>
+			  </ul>
+		  	</p>
+			
+			<div class="spacer">&nbsp;</div>
+		</article>
+		
+		<hr/>
+		
+		<article>
+			<h2>POV Wand</h2>
+			
+			<div class="imageGallery">
+				
+					<img class="imgBorder" src="img/KCMakerFaire/IMG_3473.jpg" width="260" alt="POV Wand"/></li>
+			
+				
+					<img class="imgBorder" src="img/KCMakerFaire/IMG_3472.jpg" width="260" alt="POV Wand Lit"/>
+				
+			</div>
+		  
+		  	<p>
+			  Features:
+			  <ul>
+			  <li>20 LED Wand</li>
+			  <li>2 Potentiometers to select program</li>
+			  </ul>
+		  	</p>
+		  	
+		  	<p>
+			  Parts:
+			  <ul>
+			  <li>Erector motor and parts</li>
+			  <li>Scrap wood</li>
+			  <li>Misc. salvaged wire</li>
+			  <li>Arduino Nano V3.0</li>
+			  <li>Electronic components removed from old electronics</li>
+			  </ul>
+		  	</p>
+			
+			<div class="spacer">&nbsp;</div>
+		</article>
+		
+		<hr/>
+		
+		<article>
+			<h2>Battleship Galactica</h2>
+			
+			<div class="imageGallery">
+			
+					<img class="imgBorder" src="img/KCMakerFaire/IMG_3519.jpg" width="260" alt="Dartboard connected to Arduino"/></li>
+				
+					<img class="imgBorder" src="img/KCMakerFaire/dartboard-screen.jpg" width="260" alt="Screenshot of user interface"/>
+				
+			</div>
+		  
+		  	<p>
+			  Features:
+			  <ul>
+			  <li>82 pressable regions</li>
+			  <li>USB keyboard/mouse output</li>
+			  </ul>
+		  	</p>
+		  
+		  	<p>
+			  Parts:
+			  <ul>
+			  <li>Electronic dartboard</li>
+			  <li>Scrap wood</li>
+			  <li>Misc. salvaged wire</li>
+			  <li>Arduino Leonardo</li>
+			  <li>Electronic components removed from old electronics</li>
+			  </ul>
+		  	</p>
+			
+			<div class="spacer">&nbsp;</div>
+		</article>
+		
+		<hr/>
+		
+		<article>
+			<h2>Energy Generator Bike</h2>
+		  
+		  	<p>
+			  Features:
+			  <ul>
+			  <li>Fan to keep rider cool</li>
+			  <li>12v electric generator</li>
+			  <li>Dual 12v car outlets</li>
+			  </ul>
+		  	</p>
+		  
+		  	<p>
+			  Parts:
+			  <ul>
+			  <li>Exercise Bike</li>
+			  <li>2 12v RV fans</li>
+			  <li>Misc. salvaged wire</li>
+			  <li>Car outlets</li>
+			  <li>Electronic components removed from old electronics</li>
+			  </ul>
+		  	</p>
+			
+			<div class="spacer">&nbsp;</div>
+		</article>
+	</body>
+</html>

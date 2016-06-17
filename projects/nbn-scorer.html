@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Automata - Projects</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/automatafavicon.ico" type="image/x-icon">
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/article.style1.css" rel="stylesheet" type="text/css" />
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script type="text/javascript">
+		/** This is high-level function.
+		 * It must react to delta being more/less than zero.
+		 */
+		function handle(delta) {
+		var d=delta*-10;
+		window.scrollBy(0,d);
+		}
+
+		/** Event handler for mouse wheel event.
+		 */
+		function wheel(event){
+				var delta = 0;
+				if (!event) /* For IE. */
+						event = window.event;
+				if (event.wheelDelta) { /* IE/Opera. */
+						delta = event.wheelDelta/120;
+						/** In Opera 9, delta differs in sign as compared to IE.
+						 */
+						if (window.opera)
+								delta = -delta;
+				} else if (event.detail) { /** Mozilla case. */
+						/** In Mozilla, sign of delta is different than in IE.
+						 * Also, delta is multiple of 3.
+						 */
+						delta = -event.detail/3;
+				}
+				/** If delta is nonzero, handle it.
+				 * Basically, delta is now positive if wheel was scrolled up,
+				 * and negative, if wheel was scrolled down.
+				 */
+				if (delta)
+						handle(delta);
+				/** Prevent default actions caused by mouse wheel.
+				 * That might be ugly, but we handle scrolls somehow
+				 * anyway, so don't bother here..
+				 */
+				if (event.preventDefault)
+						event.preventDefault();
+			event.returnValue = false;
+		}
+
+		/** Initialization code. 
+		 * If you use your own event management code, change it as required.
+		 */
+		if (window.addEventListener)
+				/** DOMMouseScroll is for mozilla. */
+				window.addEventListener('DOMMouseScroll', wheel, false);
+		/** IE/Opera. */
+		window.onmousewheel = document.onmousewheel = wheel;
+	</script>
+  </head>
+  <body>
+	<div id="bodyContent">
+		<article>
+			<h2>VEX Nothing But Net Scorer</h2>
+			<div class="imageGallery">
+				  <img class="imgBorder" width="222" src="img/Apps/nbn-screenshot-1.png" alt="VEX Nothing But Net Scoring App screenshot"/>
+			</div>
+			
+			<p>
+				A scoring app for the 2015-2016 VRC game, VEX Nothing But Net.
+			</p>
+			
+			<p>
+				Features:
+				<ul>
+					<li>Designed for in-match scoring</li>
+					<li>Input validation to ensure that all scoring rules are followed</li>
+					<li>Match timer</li>
+					<li>Easy to use</li>
+					<li>Supports Android 2.3 and up</li>
+				</ul>
+			</p>
+
+			<p>
+				How to Use:
+				<ul>
+					<li>Click on a ball to add balls to a goal (top set of buttons = high goal, bottom set = low goal)</li>
+					<li>Click on the minus symbol in the upper right corner to toggle subtraction mode</li>
+					<li style="list-style-type: none;">When in subtraction mode, balls can be removed in the same manner as they are added</li>
+					<li>Click on scores/timer display to select the autonomous winner</li>
+					<li>Click on the robot icons at bottom of screen to cycle elevation height</li>
+					<li>Click on the timer symbol in the upper right corner to select timer duration</li>
+				</ul>
+			</p>
+			
+			<p>
+			  <a href="https://play.google.com/store/apps/details?id=com.automatadev.vexnothingbutnetscorer"target="_blank"><button>Download from Google Play</button></a>
+			</p>
+		
+		</article>
+	</body>
+</html>
