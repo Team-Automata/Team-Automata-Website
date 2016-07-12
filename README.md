@@ -1,2 +1,2 @@
 # Team-Automata-Website
-Source code for teamautomata.com
+Source code for http://teamautomata.com
