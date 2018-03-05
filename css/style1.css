@@ -67,6 +67,7 @@ hr{display:block; height:3px; width:100%; background-color:#48D456; border:none;
 #bodyContent .card{margin:8px 6px; box-shadow:1px 2px 8px gray; border-radius:2px; display:inline-block; background-repeat: no-repeat;}
 #bodyContent .cardimg{padding:10px; color: black; background-color: white; border-radius:2px 2px 0 0;}
 #bodyContent .cardimg img{max-width:100%; height:100%;}
+#bodyContent .card iframe{width:100%; height:86%;}
 #bodyContent .cardtitle{width:100%; color: black; background-color: white; border-radius:0 0 2px 2px; /*border-top: 1px solid rgba(0,0,0,0.20);*/}
 #bodyContent .card h3{text-align:center; margin:10px; padding:0;}
 #bodyContent .card p{text-align:center; margin:10px; padding:0;}
@@ -80,6 +81,7 @@ hr{display:block; height:3px; width:100%; background-color:#48D456; border:none;
 /* - - News feeds */
 #newsFeeds{}
 .newsFeed{padding:10px; width:360px; height:400px;}
+.playlist{padding:10px; width:360px; height:232px;}
 /* - Tiles */
 #bodyContent .tile{width:180px; height:180px; margin:2px 0; border-radius:0; display:inline-block; background-repeat:no-repeat; /*border:1px solid rgba(120,120,120, .9);*/}
 #bodyContent .tiletitle{width:160px; height:40px; padding:10px; position:relative; top:120px; color: white; background:rgb(128,128,128); background:rgba(120,120,120, .6);}
@@ -95,7 +97,7 @@ hr{display:block; height:3px; width:100%; background-color:#48D456; border:none;
 footer{display:inline-block; position:fixed; right:10px; bottom:10px;}
 footer img{margin:0 0 0 6px;}
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 1024px) {
     #textLogo{display: none;}
 }
 
